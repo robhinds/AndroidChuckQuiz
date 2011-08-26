@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.tmm.android.chuck"
+      android:versionCode="2"
+      android:versionName="2.0">
+    <application android:icon="@drawable/chuck_icon_bg" android:label="@string/app_name" android:name=".ChuckApplication" >
+        <activity android:name=".SplashActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name=".QuestionActivity" />
+		<activity android:name=".RulesActivity" />
+		<activity android:name=".EndgameActivity" />
+		<activity android:name=".SettingsActivity" />
+		<activity android:name=".AnswersActivity" />
+    </application>
+    <uses-sdk android:minSdkVersion="2" />
+
+</manifest> 

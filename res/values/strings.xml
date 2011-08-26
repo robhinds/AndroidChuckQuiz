@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SplashActivity!</string>
+    <string name="app_name">Chuck - The Quiz</string>
+    <string name="rules">Welcome to the Un-official Chuck quiz - just how much of a nerd are you? 
+    This quiz is based on season 1 and 2 of the television series "Chuck". If this is the first time playing
+    you should go to the "Settings" option to decide which difficulty setting you think you can master.. 
+    will you be good enough to take one the one they call Casey? or will you be left doing "the Morgan".
+    </string>
+</resources>
